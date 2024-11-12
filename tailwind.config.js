@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const {fontFamily} = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
    
@@ -7,7 +10,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mont: ['var(--font-inter)'],
+        
+      },
+    },
   },
   plugins: [],
 }
