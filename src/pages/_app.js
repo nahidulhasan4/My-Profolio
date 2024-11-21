@@ -5,7 +5,7 @@ import Head from "next/head"
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-mont",
+  variable: "--font-montserrat",
 });
 
 export default function App({ Component, pageProps }) {
