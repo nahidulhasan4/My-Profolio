@@ -2,7 +2,8 @@ import Link from 'next/link'
 import React from 'react'
 import Logo from '@/component/Logo'
 import { useRouter } from 'next/router'
-
+import {TwitterIcon,GithubIcon, LinkedInIcon, PinterestIcon, DribbbleIcon} from '@/component/Icons'
+import{motion}from 'framer-motion'
 
 const CastomLink= ({href, title, className=""}) =>{
 const router = useRouter();
@@ -27,12 +28,42 @@ const Navber = () => {
         <CastomLink href="/article"  title="Artical" className="ml-4" />
     </nav>
     
-    <nav>
-        <Link href="/" target={'_blank'}>Tiwtter</Link>
-        <Link href="/" target={'_blank'}>Tiwtter</Link>
-        <Link href="/" target={'_blank'}>Tiwtter</Link>
-        <Link href="/" target={'_blank'}>Tiwtter</Link>
-        <Link href="/" target={'_blank'}>Tiwtter</Link>
+    <nav className=' flex items-center justify-center flex-warp'>
+        <motion.a href="https://x.com/HasanNahid1028" target={'_blank'}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className='w-6 mr-3'
+        >
+          <TwitterIcon />
+        </motion.a>
+        <motion.a href="https://www.linkedin.com/in/seo-expert-nahid-hasan-69b025230/" target={'_blank'}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className='w-6 mx-3'
+        >
+        <LinkedInIcon />
+        </motion.a>
+        <motion.a href="https://www.pinterest.com/nahidhasan4836/" target={'_blank'}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className='w-6 mx-3'
+        >
+        <PinterestIcon />
+        </motion.a>
+        <motion.a href="https://github.com/nahidulhasan4" target={'_blank'}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className='w-6 mx-3'
+        >
+        <GithubIcon/>
+        </motion.a>
+        <motion.a href="https://dribbble.com/" target={'_blank'}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className='w-6 ml-3'
+        >
+        <DribbbleIcon />
+        </motion.a>
     </nav>
      <div className=' absolute left-[50%] top-2 translate-x-[50%]'>
      <Logo />
