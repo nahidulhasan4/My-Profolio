@@ -4,8 +4,7 @@ import Layout from "@/component/Layout";
 import ProfilePic from "../../public/images/profile/darkNahid.png";
 import Image from 'next/image'
 import AnimatedText from "@/component/AnimatedText";
-
-
+import Link from 'next/link'
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,11 +22,15 @@ export default function Home() {
           <div className="w-1/2">
             <Image src={ProfilePic} alt="nahio Hasan" className="w-full h-auto" ></Image>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 flex flex-col items-center self-center">
           
           <AnimatedText text="Turning Vision Into Reality With Code And Design." className=" !text-left mb-4"/>
-          <p>As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
+          <p className="my-4 text-base font-medium">As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
           Explore my latest projects and articles, showcasing my expertise in React.js and web development</p>
+          <div className="flex items-center self-start mt-2 ">
+            <Link href="/dummy.pdf" target={'_blank'} >Resume</Link>
+            <Link href="mailto:nahidhsan4836@gmail.com" target={'_blank'} >Email</Link>
+          </div>
           </div>
         </div>
         </Layout>
