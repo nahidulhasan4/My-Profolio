@@ -5,6 +5,7 @@ import ProfilePic from "../../public/images/profile/darkNahid.png";
 import Image from 'next/image'
 import AnimatedText from "@/component/AnimatedText";
 import Link from 'next/link'
+// import LinkArrow from '@/component/Icons'
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,9 +28,12 @@ export default function Home() {
           <AnimatedText text="Turning Vision Into Reality With Code And Design." className=" !text-left mb-4"/>
           <p className="my-4 text-base font-medium">As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
           Explore my latest projects and articles, showcasing my expertise in React.js and web development</p>
-          <div className="flex items-center self-start mt-2 ">
-            <Link href="/dummy.pdf" target={'_blank'} >Resume</Link>
-            <Link href="mailto:nahidhsan4836@gmail.com" target={'_blank'} >Email</Link>
+          <div className="flex items-center self-start mt-2 gap-3 ">
+            <Link href="/dummy.pdf" target={'_blank'} download={true} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:text-dark hover:bg-light border-solid border-transparent hover:border-dark border-2">Resume
+            
+            </Link>
+           
+            <Link href="mailto:nahidhsan4836@gmail.com" target={'_blank'} className="flex items-center text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:text-light hover:bg-dark border-solid border-transparent hover:border-dark border-2" >Email</Link>
           </div>
           </div>
         </div>
