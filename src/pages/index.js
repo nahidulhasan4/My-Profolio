@@ -1,11 +1,12 @@
-import Head from "next/head";
+import Head from 'next/head';
+import React from 'react'
 import { Inter } from "next/font/google";
-import Layout from "@/component/Layout";
-import ProfilePic from "../../public/images/profile/darkNahid.png";
+import Layout from '@/component/Layout';
+import ProfilePic from '../../public/images/profile/darkNahid.png';
 import Image from 'next/image'
-import AnimatedText from "@/component/AnimatedText";
+import AnimatedText from '@/component/AnimatedText';
 import Link from 'next/link'
-// import LinkArrow from '@/component/Icons'
+import LinkArrow from '@/component/Icons'
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -29,11 +30,9 @@ export default function Home() {
           <p className="my-4 text-base font-medium">As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
           Explore my latest projects and articles, showcasing my expertise in React.js and web development</p>
           <div className="flex items-center self-start mt-2 gap-3 ">
-            <Link href="/dummy.pdf" target={'_blank'} download={true} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:text-dark hover:bg-light border-solid border-transparent hover:border-dark border-2">Resume
-            
-            </Link>
+            <Link href="/dummy.pdf" target={'_blank'} download={true} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:text-dark hover:bg-light border-solid border-transparent hover:border-dark border-2">Resume   </Link>
            
-            <Link href="mailto:nahidhsan4836@gmail.com" target={'_blank'} className="flex items-center text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:text-light hover:bg-dark border-solid border-transparent hover:border-dark border-2" >Email</Link>
+            <Link href="mailto:nahidhsan4836@gmail.com" target={'_blank'} className="ml-4 text-lg font-medium underline capitalize text-dark " >Email</Link>
           </div>
           </div>
         </div>
