@@ -7,6 +7,7 @@ import Image from 'next/image'
 import AnimatedText from '@/component/AnimatedText';
 import Link from 'next/link'
 import LinkArrow from '@/component/Icons'
+import HireMe from '@/component/HireMe';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -37,6 +38,7 @@ export default function Home() {
           </div>
         </div>
         </Layout>
+        <HireMe />
       </main>
     </>
   );
