@@ -9,7 +9,7 @@ const AboutMe = () => {
         href="mailto:nahidhasan4836@gmail.com"
         className="flex items-center justify-center absolute right-1/2  top-[68px] translate-x-1/2 translate-y-1/2 bg-dark text-light shadow-md border border-solid border-dark w-20 h-auto rounded "
       >
-        Hire Me
+        About Me
       </Link>
     </div>
   </div>
