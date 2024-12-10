@@ -44,7 +44,7 @@ const about = () => {
                 your next project.
               </p>
             </div>
-          <div>
+          <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark overflow-hidden">
           <Image src={ProfilePic} alt="nahid" className='w-full h-auto'/>
           </div>
 
