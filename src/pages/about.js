@@ -1,7 +1,9 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import Layout from "@/component/Layout";
 import AnimatedText from "@/component/AnimatedText";
+import ProfilePic from "../../public/images/profile/developer-pic-2.jpg"
 const about = () => {
   return (
     <>
@@ -14,8 +16,8 @@ const about = () => {
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
-          <AnimatedText text="Passion Fules Purpose!" />
-          <div className=" grid w-full grid-col-8 gap-16  ">
+        <AnimatedText text="Passion Fules Purpose!"  className="mb-16"/>
+          <div className=" grid w-full grid-cols-8 gap-16">
             <div className="col-span-3 flex flex-col items-start justify-start">
               <h1 className="mb-4 text-lg font-bold uppercase text-dark/75">
                 Biograpy
@@ -28,13 +30,13 @@ const about = () => {
                 clients' visions to life.
               </p>
               <p className="my-4 font-medium">
-                {" "}
+              
                 - I believe that design is about more than just making things
                 look pretty – it's about solving problems and creating
-                intuitive, enjoyable experiences for users.{" "}
+                intuitive, enjoyable experiences for users.
               </p>
 
-              <p>
+              <p className="font-medium">
                 - Whether I'm working on a website, mobile app, or other digital
                 product, I bring my commitment to design excellence and
                 user-centered thinking to every project I work on. I look
@@ -42,6 +44,10 @@ const about = () => {
                 your next project.
               </p>
             </div>
+          <div>
+          <Image src={ProfilePic} alt="nahid" className='w-full h-auto'/>
+          </div>
+
           </div>
         </Layout>
       </main>
