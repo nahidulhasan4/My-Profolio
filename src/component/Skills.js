@@ -9,6 +9,7 @@ const Skill= ({name, x, y}) =>{
       whileHover={{scale:1.05}}
       initial={{x:0, y:0}}
       animate={{x:x, y:y}}
+      transition={ {duration: 1.8}}
       >
         {name}
 
@@ -36,10 +37,16 @@ const Skills = () => {
 
       </motion.div>
       <Skill name="CSS" x="-5vw" y="-10vw" />
-      <Skill name="HTML" x="-10vw" y="-5vw" />
-      <Skill name="CSS" x="-5vw" y="-10vw" />
-      <Skill name="SCSS" x="15vw" y="-15vw" />
-      <Skill name="Tailwind" x="5vw" y="-13vw" />
+      <Skill name="HTML" x="-20vw" y="2vw" />
+      <Skill name="Bootstrap" x="-35vw" y="-7vw" />
+      <Skill name="Firebase" x="-15vw" y="15vw" />
+      <Skill name="Javascript" x="20vw" y="8vw" />
+      <Skill name="React JS" x="5vw" y="19vw" />
+      <Skill name="SCSS" x="35vw" y="3vw" />
+      <Skill name="Web Design" x="20vw" y="-5vw" />
+      <Skill name="Tailwind" x="5vw" y="-19vw" />
+     
+      
     </div>
     </>
   )
