@@ -35,7 +35,9 @@ const Skills = () => {
         web
 
       </motion.div>
-      <Skill name="CSS" x="-4vw" y="-5vw" />
+      <Skill name="CSS" x="-5vw" y="-10vw" />
+      <Skill name="HTML" x="-10vw" y="-5vw" />
+      <Skill name="CSS" x="-5vw" y="-10vw" />
     </div>
     </>
   )
