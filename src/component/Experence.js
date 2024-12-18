@@ -2,7 +2,17 @@ import React from 'react'
 
 
 const Details =({positon,company,companyLInk,time,adress,work})=>{
-
+ return(
+  <li>
+    <div>
+      <h3>{positon} &nbsp; <a href={companyLInk}>@{company}</a></h3>
+      <span>{time} {adress}</span>
+      <p>
+        {work}
+      </p>
+    </div>
+  </li>
+ )
 }
 
 
@@ -14,9 +24,7 @@ const Experence = () => {
         </h2>
        <div className='w-[75%] mx-auto relative'>
        <ul>
-          <li>
-
-          </li>
+          <Details />
         </ul>
        </div>
 
