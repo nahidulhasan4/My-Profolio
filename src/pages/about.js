@@ -51,11 +51,9 @@ const about = () => {
                 Biograpy
               </h1>
               <p className="font-medium">
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a
+                Hi, I'm Nahid Hasan Patwary, a web developer and UI/UX designer with a
                 passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.
+                digital experiences. With One years of experience in the field. 
               </p>
               <p className="my-4 font-medium">
                 - I believe that design is about more than just making things
