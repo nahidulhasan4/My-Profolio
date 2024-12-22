@@ -5,14 +5,20 @@ import Image  from 'next/image';
 import Layout from "@/component/Layout";
 import AnimatedText from "@/component/AnimatedText";
 import { GithubIcon } from '@/component/Icons';
-import ProjectImg1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import ProjectImg1 from "../../public/images/projects/ChatApp.png"
 import ProjectImg2 from "../../public/images/projects/bikerZOne.png"
+import ProjectImg3 from "../../public/images/projects/TeaHouse.png"
+import ProjectImg4 from "../../public/images/projects/G3.png"
+import ProjectImg5 from "../../public/images/projects/creative.png"
+import ProjectImg6 from "../../public/images/projects/penguin fahsion.png"
 
 
 
 const FeaturedProject = ({type, title, summmary, img, link, github})=>{
   return(
-    <article className='w-full flex items-center justify-between  rounded-3xl border  border-solid bg-light p-12 border-dark shadow-2xl'>
+    <article className='w-full flex items-center relative justify-between roounded-br-2xl rounded-3xl border  border-solid bg-light p-12 border-dark shadow-2xl'>
+                    <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] roounded-br-3xl rounded-[2.5rem] bg-dark" />
+
       <Link href={link} target='_blank'
       className='w-1/2 cursor-pointer overflow-hidden rounded-lg'
       >
@@ -37,6 +43,7 @@ const Project1 =({title,type,img,link,github})=>{
 
   return(
      <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative'>
+       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] roounded-br-3xl rounded-[2rem] bg-dark" />
       <Link href={link} target='_blank'
       className='w-full cursor-pointer overflow-hidden rounded-lg'
       >
@@ -86,8 +93,8 @@ const project = () => {
             </div>
             <div className='col-span-6'>
             <Project1 
-            title="Chatting Application "  
-            img={ProjectImg1}  
+            title="Tea House | Tea Shop"  
+            img={ProjectImg3}  
              
                 link="/"
                 github="/"
@@ -95,10 +102,10 @@ const project = () => {
             </div>
             <div className='col-span-6'>
             <Project1 
-            title="Chatting Application "  
-            img={ProjectImg1}  
+            title="G3-Architects"  
+            img={ProjectImg4}  
              
-                link="/"
+                link="https://nahidulhasan4.github.io/G3-archtirs/"
                 github="/"
                 type="Featured Project" />
             </div>
@@ -119,8 +126,8 @@ const project = () => {
             </div>
             <div className='col-span-6'>
             <Project1 
-            title="Chatting Application "  
-            img={ProjectImg1}  
+            title="Creative Service "  
+            img={ProjectImg5}  
              
                 link="/"
                 github="/"
@@ -128,8 +135,8 @@ const project = () => {
             </div>
             <div className='col-span-6'>
             <Project1 
-            title="Chatting Application "  
-            img={ProjectImg1}  
+            title=" Penguin Fashion"  
+            img={ProjectImg6}  
              
                 link="/"
                 github="/"
