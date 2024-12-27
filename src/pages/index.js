@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="w-1/2 flex flex-col items-center self-center">
           
-          <AnimatedText text="Turning Vision Into Reality With Code And Design." className=" w-auto !text-left text-2xl mb-4"/>
+          <AnimatedText text="Turning Vision Into Reality With Code And Design." className=" dark:text-light w-auto !text-left text-2xl mb-4"/>
           <p className="my-4 text-base mb-4 font-medium">As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
           Explore my latest projects and articles, showcasing my expertise in React.js and web development</p>
           <div className="flex items-center self-start mt-2 gap-3 ">
@@ -41,7 +41,7 @@ export default function Home() {
     
         </Layout>
         <HireMe />
-    <div className='absolute right-8 bottom-[-15px] inline-block w-24'>
+    <div className='absolute right-8 bottom-[-140px] inline-block w-24'>
       <Image src={lightbulb} alt="nahid" className='w-full h-auto'/>
     </div>
       </main>

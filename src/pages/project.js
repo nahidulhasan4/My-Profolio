@@ -76,7 +76,7 @@ const project = () => {
     </Head>
     <main className="w-full mb-16 flex px-10 flex-col  items-center justify-center">
         <Layout className='pt-16'>
-        <AnimatedText text="Imagination Trumps Knowledge!" className="  !text-8xl mb-14"/>
+        <AnimatedText text="Imagination Trumps Knowledge!" className="  !text-8xl dark:text-light mb-14"/>
           <div className='grid mt-5 grid-cols-12 gap-24'>
             <div className='col-span-12'>
               <FeaturedProject

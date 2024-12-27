@@ -13,20 +13,20 @@ const Details = ({ positon, company, companyLInk, time, adress, work }) => {
       whileInView={{y:0}}
       transition={{duration:0.5, type:"spring"}}
       >
-        <h3 className="capitalize font-bold text-2xl">
+        <h3 className="capitalize  dark:text-light font-bold text-2xl">
           {positon} &nbsp;{" "}
           <a
-            className="text-primary capitalize"
+            className="text-primary   capitalize"
             target="_blank"
             href={companyLInk}
           >
             @{company}
           </a>
         </h3>
-        <span className=" font-medium capitalize text-dark/75">
+        <span className=" font-medium  dark:text-light capitalize text-dark/75">
           {time} {adress}
         </span>
-        <p className="font-medium w-full">{work}</p>
+        <p className="font-medium  dark:text-light w-full">{work}</p>
       </motion.div>
     </li>
   );
@@ -42,9 +42,9 @@ const Experence = () => {
   )
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center">Experence</h2>
+      <h2 className="font-bold  dark:text-light  text-8xl mb-32 w-full text-center">Experence</h2>
       <div ref={ref} className="w-[75%] mx-auto relative">
-        <motion.div style={{scaleY: scrollYProgress}} className="absolute left-9 top-0 w-[4px] h-full  bg-dark origin-top"/>
+        <motion.div style={{scaleY: scrollYProgress}} className="absolute left-9 top-0 w-[4px] h-full dark:bg-light  bg-dark origin-top"/>
         <ul className="w-full flex flex-col items-center justify-between ml-4">
           <Details
             positon="  Software Engineer"

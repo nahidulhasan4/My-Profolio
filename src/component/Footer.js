@@ -3,13 +3,13 @@ import Layout from './Layout'
 import Link from 'next/link'
 const Footer = () => {
   return (
-    <footer className='w-full border-t-2 border-solid border-dark font-medium text-lg '>
-        <Layout className='py-8 flex items-center justify-between'>
+    <footer className='w-full border-t-2 border-solid  dark:border-light border-dark font-medium text-lg '>
+        <Layout className='py-8 flex dark:text-light items-center justify-between'>
             <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
-            <div className='flex items-center'>Build With <span className='text-primary  text-2xl px-1'>&#9825;</span>by &nbsp;
-            <Link href="https://github.com/nahidulhasan4">Nahid hasn</Link>
+            <div className='flex dark:text-light items-center'>Build With <span className='text-primary  text-2xl px-1'>&#9825;</span>by &nbsp;
+            <Link className='dark:text-light' href="https://github.com/nahidulhasan4">Nahid hasn</Link>
             </div>
-            <Link href="">Say Help</Link>
+            <Link className='dark:text-light' href="">Say Help</Link>
         </Layout>
     </footer>
   )
