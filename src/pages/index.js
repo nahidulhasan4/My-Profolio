@@ -32,7 +32,7 @@ export default function Home() {
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText
                 text="Turning Vision Into Reality With Code And Design."
-                className=" dark:text-light w-auto !text-left text-2xl mb-4"
+                className=" dark:text-light w-auto !text-left  text-2xl  mb-4"
               />
               <p className="my-4 text-base mb-4 font-medium">
                 As a skilled full-stack developer, I am dedicated to turning
@@ -41,6 +41,7 @@ export default function Home() {
                 web development
               </p>
               <div className="flex items-center self-start mt-2 gap-3 ">
+                {/* here design some design  */}
                 <Link
                   href="/dummy.pdf"
                   target={"_blank"}
