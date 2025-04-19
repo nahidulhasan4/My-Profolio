@@ -41,6 +41,7 @@ const FutureArticle = ({ img, title, time, summary, link }) => {
 const Article = () => {
   return (
     <>
+    {/* here design head  */}
       <Head>
         <title>Nahid | Article </title>
         <meta
