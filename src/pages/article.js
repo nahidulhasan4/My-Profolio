@@ -49,6 +49,7 @@ const Article = () => {
           content="HI there here you can Know About me, professional MERN stack developer and SEO expert you can hire me for you project"
         />
       </Head>
+      {/* here  design main part  */}
       <main className="w-full flex flex-col mb-16 items-center justify-center overflow-hidden">
         <Layout className="pt-16 px-5">
           <AnimatedText
@@ -85,7 +86,7 @@ Discover how to use React-Loading, React-Lottie & build a custom loading screen.
           </ul>
         </Layout>
       </main>
-      Learn
+      {/* here design  end main part  */}
     </>
   );
 };
