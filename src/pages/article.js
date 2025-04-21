@@ -92,3 +92,4 @@ Discover how to use React-Loading, React-Lottie & build a custom loading screen.
 };
 
 export default Article;
+// here sone data on bord 
