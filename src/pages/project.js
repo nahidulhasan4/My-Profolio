@@ -11,6 +11,7 @@ import ProjectImg3 from "../../public/images/projects/TeaHouse.png";
 import ProjectImg4 from "../../public/images/projects/G3.png";
 import ProjectImg5 from "../../public/images/projects/creative.png";
 import ProjectImg6 from "../../public/images/projects/penguin fahsion.png";
+import Homeg01 from "../../public/images/projects/homeg01.png";
 import { motion } from "framer-motion";
 // this page need to work daily here need improvement on project 
 
@@ -75,7 +76,7 @@ const Project1 = ({ title, type, img, link, github }) => {
         <FremerImage
           src={img}
           alt={title}
-          className="w-full h-auto"
+          className="w-full h-auto max-h-[270px]"
           whileHover={{ scale: 1.2 }}
           transition={{ duration: 0.2 }}
         />
@@ -147,11 +148,11 @@ const project = () => {
             </div>
             <div className="col-span-6">
               <Project1
-                title="G3-Architects"
-                img={ProjectImg4}
-                link="https://nahidulhasan4.github.io/G3-archtirs/"
+                title="Homeg 01 | Architecture"
+                img={Homeg01}
+                link="https://nahidulhasan4.github.io/Homge-bootstrap/"
                 github="/"
-                type="Featured Project"
+                type="Complete Project"
               />
             </div>
             <div className="col-span-6"></div>
