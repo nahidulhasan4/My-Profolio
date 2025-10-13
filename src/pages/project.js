@@ -12,6 +12,7 @@ import ProjectImg4 from "../../public/images/projects/G3.png";
 import ProjectImg5 from "../../public/images/projects/creative.png";
 import ProjectImg6 from "../../public/images/projects/penguin fahsion.png";
 import { motion } from "framer-motion";
+// this page need to work daily here need improvement on project 
 
 const FremerImage = motion(Image);
 
@@ -141,7 +142,7 @@ const project = () => {
                 img={ProjectImg3}
                 link="/"
                 github="/"
-                type="Featured Project"
+                type="Done  Project"
               />
             </div>
             <div className="col-span-6">
