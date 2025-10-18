@@ -158,12 +158,12 @@ const project = () => {
             <div className="col-span-6"></div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Biker Zone "
+                title="Axtro | Game Seller "
                 img={ProjectImg2}
                 summmary="  A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
               It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
               local currency."
-                link="https://nahidulhasan4.github.io/Bikers_Zone/"
+                link="https://axtro.vercel.app/"
                 github="/"
                 type="Featured Project"
               />
