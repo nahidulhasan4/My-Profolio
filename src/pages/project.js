@@ -6,7 +6,7 @@ import Layout from "@/component/Layout";
 import AnimatedText from "@/component/AnimatedText";
 import { GithubIcon } from "@/component/Icons";
 import ProjectImg1 from "../../public/images/projects/ChatApp.png";
-import ProjectImg2 from "../../public/images/projects/bikerZOne.png";
+import Axtro01 from "../../public/images/projects/axtro.png";
 import ProjectImg3 from "../../public/images/projects/TeaHouse.png";
 import ProjectImg4 from "../../public/images/projects/G3.png";
 import ProjectImg5 from "../../public/images/projects/creative.png";
@@ -159,7 +159,7 @@ const project = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Axtro | Game Seller "
-                img={ProjectImg2}
+                img={Axtro01}
                 summmary="  A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
               It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
               local currency."
