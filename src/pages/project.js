@@ -165,7 +165,7 @@ const project = () => {
               local currency."
                 link="https://axtro.vercel.app/"
                 github="/"
-                type="Featured Project"
+                type="done | Project"
               />
             </div>
             <div className="col-span-6">
