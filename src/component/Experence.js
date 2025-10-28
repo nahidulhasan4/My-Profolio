@@ -57,10 +57,10 @@ const Experence = () => {
          developing new tools for data analysis and visualization."
           />
           <Details
-            positon="  Software Engineer"
-            company=" Google"
+            positon="  Frontend | Engineer"
+            company=" Qumodosoft "
             time=" 2022-Present |"
-            companyLInk="www.google.com"
+            companyLInk="www.qumodosoft.com"
             adress="Mountain View, CA"
             work=" Worked on a team responsible for developing new features for Google's 
          search engine, including improving the accuracy and relevance of search results and 
