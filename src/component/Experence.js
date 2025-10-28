@@ -59,7 +59,7 @@ const Experence = () => {
           <Details
             positon="  Frontend | Engineer"
             company=" Qumodosoft "
-            time=" 2022-Present |"
+            time=" 2025- 2025 |"
             companyLInk="www.qumodosoft.com"
             adress="Mountain View, CA"
             work=" Worked on a team responsible for developing new features for Google's 
@@ -67,25 +67,16 @@ const Experence = () => {
          developing new tools for data analysis and visualization."
           />
           <Details
-            positon="  Software Engineer"
-            company=" Google"
-            time=" 2022-Present |"
+            positon="  coffe  Mesin Oparetor"
+            company=" java juction"
+            time=" 2025-Present |"
             companyLInk="www.google.com"
             adress="Mountain View, CA"
             work=" Worked on a team responsible for developing new features for Google's 
          search engine, including improving the accuracy and relevance of search results and 
          developing new tools for data analysis and visualization."
           />
-          <Details
-            positon="  Software Engineer"
-            company=" Google"
-            time=" 2022-Present |"
-            companyLInk="www.google.com"
-            adress="Mountain View, CA"
-            work=" Worked on a team responsible for developing new features for Google's 
-         search engine, including improving the accuracy and relevance of search results and 
-         developing new tools for data analysis and visualization."
-          />
+         
         </ul>
       </div>
     </div>
