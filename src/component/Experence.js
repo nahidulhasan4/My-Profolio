@@ -47,9 +47,9 @@ const Experence = () => {
         <motion.div style={{scaleY: scrollYProgress}} className="absolute left-9 top-0 w-[4px] h-full dark:bg-light  bg-dark origin-top"/>
         <ul className="w-full flex flex-col items-center justify-between ml-4">
           <Details
-            positon="  Software Engineer"
-            company=" Google"
-            time=" 2022-Present |"
+            positon="  Shopno | salesman"
+            company=" ShopnoShoping"
+            time=" jun 2024- Dec 2024 |"
             companyLInk="www.google.com"
             adress="Mountain View, CA"
             work=" Worked on a team responsible for developing new features for Google's 
