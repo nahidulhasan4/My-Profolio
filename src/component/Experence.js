@@ -69,7 +69,7 @@ const Experence = () => {
           <Details
             positon="  coffe  Mesin Oparetor"
             company=" java juction"
-            time=" 2025-Present |"
+            time=" 2025-Present"
             companyLInk="www.google.com"
             adress="Mountain View, CA"
             work=" Worked on a team responsible for developing new features for Google's 
