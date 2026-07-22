@@ -23,7 +23,7 @@ const Navber = () => {
 
   return (
   <>
-  <header className='w-full px-32 py-8 font-medium dark:text-light flex items-center justify-between '>
+  <header className='w-full px-4 py-4 sm:px-8 lg:px-32 font-medium dark:text-light flex items-center justify-between'>
     <nav className='px-3'>
         <CastomLink href="/" title="Home" className="mr-4"/> 
         <CastomLink href="/about" title="About" className="mx-4" />

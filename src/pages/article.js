@@ -50,7 +50,7 @@ const Article = () => {
         />
       </Head>
       {/* here  design main part  */}
-      <main className="w-full flex flex-col mb-16 items-center justify-center overflow-hidden">
+      <main className="w-full flex flex-col mb-16 mt-4  items-center justify-center overflow-hidden">
         <Layout className="pt-16 px-5">
           <AnimatedText
             text="Word can change the world!"

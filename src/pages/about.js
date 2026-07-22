@@ -43,7 +43,7 @@ const about = () => {
           content="HI there here you can Know About me, professional MERN stack developer and SEO expert you can hire me for you project"
         />
       </Head>
-      <main className="flex w-full flex-col items-center justify-center">
+      <main className="flex w-full flex-col items-center justify-center mt-4">
         <Layout className="pt-16 px-5">
           <AnimatedText text="Passion Fules Purpose!" className=" !text-8xl  dark:text-light mb-16" />
           <div className=" grid w-full grid-cols-8  mb-8 gap-16">
