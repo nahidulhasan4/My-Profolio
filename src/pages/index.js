@@ -2,7 +2,7 @@ import Head from "next/head";
 import React from "react";
 import { Inter } from "next/font/google";
 import Layout from "@/component/Layout";
-import ProfilePic from "../../public/images/profile/nahidProb.png";
+import ProfilePic from "../../public/images/profile/nahidbg2.png";
 import Image from "next/image";
 import AnimatedText from "@/component/AnimatedText";
 import Link from "next/link";
@@ -26,7 +26,7 @@ export default function Home() {
               <Image
                 src={ProfilePic}
                 alt="nahio Hasan"
-                className="w-full h-auto"
+                className="w-full max-xl-{400px} h-auto"
               ></Image>
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
