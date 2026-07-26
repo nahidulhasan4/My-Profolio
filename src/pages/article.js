@@ -50,13 +50,13 @@ const Article = () => {
         />
       </Head>
       {/* here  design main part  */}
-      <main className="w-full flex flex-col mb-16 mt-4  items-center justify-center overflow-hidden">
-        <Layout className="pt-16 px-5">
+      <main className="w-full flex flex-col mb-16 mt-4 items-center justify-center overflow-hidden">
+        <Layout className="pt-6 sm:pt-10 lg:pt-16 px-3 sm:px-5">
           <AnimatedText
             text="Word can change the world!"
-            className=" !text-6xl  dark:text-light mb-16"
+            className="!text-4xl sm:!text-6xl dark:text-light mb-8 sm:mb-16"
           />
-          <ul className=" grid grid-cols-2 gap-16">
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 lg:gap-16">
             <FutureArticle
               title="Build A Custom Pagination Component In Reactjs From Scratch"
               summary="  Learn how to build a custom pagination component in ReactJS from scratch. 
