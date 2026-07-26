@@ -23,62 +23,40 @@ const Navber = () => {
 
   return (
   <>
-  <header className='w-full px-4 py-4 sm:px-8 lg:px-32 font-medium dark:text-light flex items-center justify-between'>
-    <nav className='px-3'>
-        <CastomLink href="/" title="Home" className="mr-4"/> 
-        <CastomLink href="/about" title="About" className="mx-4" />
-        <CastomLink href="/project" title="Project" className="mx-4" />
-        <CastomLink href="/article"  title="Artical" className="ml-4" />
-    </nav>
+  <header className='w-full px-3 py-3 sm:px-8 lg:px-32 font-medium dark:text-light flex items-center justify-between sticky top-0 z-50 bg-light/95 backdrop-blur supports-[backdrop-filter]:bg-light/80 dark:bg-dark/95 dark:supports-[backdrop-filter]:bg-dark/80'>
+    <div className='flex items-center gap-2'>
+      <div className='flex-shrink-0'>
+        <Logo />
+      </div>
+      <nav className='hidden sm:flex items-center px-2'>
+        <CastomLink href="/" title="Home" className="mr-3"/> 
+        <CastomLink href="/about" title="About" className="mx-3" />
+        <CastomLink href="/project" title="Project" className="mx-3" />
+        <CastomLink href="/article"  title="Artical" className="ml-3" />
+      </nav>
+    </div>
     
-    <nav className=' flex items-center justify-center flex-warp'>
-        <motion.a href="https://x.com/HasanNahid1028" target={'_blank'}
-        whileHover={{y:-2}}
-        whileTap={{scale:0.9}}
-        className='w-6 mr-3'
-        >
+    <nav className='flex items-center justify-center flex-wrap gap-2'>
+        <motion.a href="https://x.com/HasanNahid1028" target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-5 sm:w-6'>
           <TwitterIcon />
         </motion.a>
-        <motion.a href="https://www.linkedin.com/in/seo-expert-nahid-hasan-69b025230/" target={'_blank'}
-        whileHover={{y:-2}}
-        whileTap={{scale:0.9}}
-        className='w-6 mx-3'
-        >
+        <motion.a href="https://www.linkedin.com/in/seo-expert-nahid-hasan-69b025230/" target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-5 sm:w-6'>
         <LinkedInIcon />
         </motion.a>
-        <motion.a href="https://www.pinterest.com/nahidhasan4836/" target={'_blank'}
-        whileHover={{y:-2}}
-        whileTap={{scale:0.9}}
-        className='w-6 mx-3'
-        >
+        <motion.a href="https://www.pinterest.com/nahidhasan4836/" target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-5 sm:w-6'>
         <PinterestIcon />
         </motion.a>
-        <motion.a href="https://github.com/nahidulhasan4" target={'_blank'}
-        whileHover={{y:-2}}
-        whileTap={{scale:0.9}}
-        className='w-6 mx-3'
-        >
+        <motion.a href="https://github.com/nahidulhasan4" target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-5 sm:w-6'>
         <GithubIcon/>
         </motion.a>
-        <motion.a href="https://dribbble.com/" target={'_blank'}
-        whileHover={{y:-2}}
-        whileTap={{scale:0.9}}
-        className='w-6 ml-3'
-        >
+        <motion.a href="https://dribbble.com/" target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-5 sm:w-6'>
         <DribbbleIcon />
         </motion.a>
     <button onClick={() => setMode(mode === "light" ? "dark" : "light") } 
-      className={`ml-3 flex items-center justify-center  rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
-      >
-{
-  mode === "dark" ? <SunIcon className={"fill-dark"}/> : <MoonIcon className={"fill-dark"}/>
-}
+      className={`ml-1 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}>
+      {mode === "dark" ? <SunIcon className={"fill-dark"}/> : <MoonIcon className={"fill-dark"}/>} 
     </button>
-
     </nav>
-     <div className=' absolute left-[50%] top-2 translate-x-[50%]'>
-     <Logo />
-     </div>
   </header>
   </>
   )
