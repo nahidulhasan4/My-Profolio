@@ -37,6 +37,7 @@ const Education = () => {
   });
   return (
     <div className="my-20 sm:my-32 lg:my-64">
+      {/* এই অংশে শিক্ষাগত ইতিহাসের time line দেখানো হয় */}
       <h2 className="font-bold text-5xl sm:text-6xl lg:text-8xl dark:text-light mb-10 sm:mb-20 lg:mb-32 w-full text-center">
         Education
       </h2>

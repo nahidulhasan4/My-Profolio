@@ -44,6 +44,7 @@ const Experence = () => {
   });
   return (
     <div className="my-20 sm:my-32 lg:my-64">
+      {/* এই অংশে অভিজ্ঞতার সময়রেখা বা experience list দেখানো হয় */}
       <h2 className="font-bold dark:text-light text-5xl sm:text-6xl lg:text-8xl mb-10 sm:mb-20 lg:mb-32 w-full text-center">
         Experence
       </h2>
