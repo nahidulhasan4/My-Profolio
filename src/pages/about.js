@@ -35,6 +35,7 @@ const AnimatedNumbers = ({ value }) => {
 const about = () => {
   return (
     <>
+      {/* এই সেকশনটি About পেজের হেডার এবং বায়োগ্রাফি অংশ দেখায় */}
       <Head>
         <title>Nahid | About Page </title>
         <meta
@@ -48,6 +49,7 @@ const about = () => {
             text="Passion Fules Purpose!"
             className="!text-4xl sm:!text-6xl lg:!text-8xl dark:text-light mb-8 sm:mb-16"
           />
+          {/* এই অংশে বায়োগ্রাফি, প্রোফাইল ইমেজ এবং কাস্টম অ্যানিমেটেড সংখ্যা দেখানো হয় */}
           <div className="grid w-full grid-cols-1 lg:grid-cols-8 mb-8 gap-8 lg:gap-16">
             <div className="lg:col-span-3 flex flex-col items-start justify-start text-center lg:text-left">
               <h1 className="mb-4 text-lg dark:text-light font-bold uppercase text-dark/75">
@@ -109,6 +111,7 @@ const about = () => {
             </div>
           </div>
 
+          {/* এই অংশে স্কিল, এক্সপেরিয়েন্স এবং এডুকেশন সেকশনগুলো একসাথে প্রদর্শন করা হয় */}
           <Skills />
           <Experence />
           <Education />

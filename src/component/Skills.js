@@ -19,6 +19,7 @@ const Skill = ({ name, x, y }) => {
 const Skills = () => {
   return (
     <>
+      {/* এই সেকশনটি আমার স্কিলগুলোকে animated circular layout এ দেখায় */}
       <h2 className="font-bold dark:text-light text-5xl sm:text-6xl lg:text-8xl mt-20 sm:mt-32 lg:mt-64 w-full text-center">
         Skills
       </h2>

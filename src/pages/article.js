@@ -41,7 +41,7 @@ const FutureArticle = ({ img, title, time, summary, link }) => {
 const Article = () => {
   return (
     <>
-    {/* here design head  */}
+    {/* এই সেকশনটি Article পেজের হেড এবং মেটা ডেটা নির্ধারণ করে */}
       <Head>
         <title>Nahid | Article </title>
         <meta
@@ -49,7 +49,7 @@ const Article = () => {
           content="HI there here you can Know About me, professional MERN stack developer and SEO expert you can hire me for you project"
         />
       </Head>
-      {/* here  design main part  */}
+      {/* এই অংশে বিভিন্ন আর্টিকেলের কার্ডগুলো গ্রিড আকারে দেখানো হয় */}
       <main className="w-full flex flex-col mb-16 mt-4 items-center justify-center overflow-hidden">
         <Layout className="pt-6 sm:pt-10 lg:pt-16 px-3 sm:px-5">
           <AnimatedText

@@ -4,6 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="w-full border-t-2 border-solid dark:border-light border-dark font-medium text-sm sm:text-lg">
+      {/* এই ফুটার অংশে কপিরাইট, লেখকের তথ্য এবং সাহায্যের লিংক দেখানো হয় */}
       <Layout className="py-6 sm:py-8 flex flex-col gap-3 sm:flex-row dark:text-light items-center justify-between text-center">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
         <div className="flex dark:text-light items-center flex-wrap justify-center">
