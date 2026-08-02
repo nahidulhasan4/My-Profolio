@@ -122,3 +122,5 @@ const about = () => {
 };
 
 export default about;
+
+// here need work on mobile device for responsive view
