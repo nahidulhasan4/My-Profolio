@@ -76,7 +76,7 @@ const about = () => {
               </p>
             </div>
             <div className="lg:col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-4 sm:p-8">
-              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark" />
+              <div className="absolute  top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark" />
               <Image
                 src={ProfilePic}
                 alt="nahid"
@@ -122,5 +122,3 @@ const about = () => {
 };
 
 export default about;
-
-// here need work on mobile device for responsive view

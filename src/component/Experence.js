@@ -51,7 +51,7 @@ const Experence = () => {
       <div ref={ref} className="w-full sm:w-[90%] lg:w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-3 sm:left-9 top-0 w-[3px] sm:w-[4px] h-full dark:bg-light bg-dark origin-top"
+          className="absolute sm:!hidden  left-3 sm:left-9 top-0 w-[3px] sm:w-[4px] h-full dark:bg-light bg-dark origin-top"
         />
         <ul className="w-full flex flex-col items-center justify-between ml-2 sm:ml-4">
           <Details
